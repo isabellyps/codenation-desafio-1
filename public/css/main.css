@@ -26,6 +26,12 @@ p {
 	font-weight: bold;
 }
 
+.container {
+	margin: 0 auto;
+    position: relative;
+    width: 1060px;
+}
+
 .cabecalho {
 	color: #fff;
 	background-image: url('../img/capa-madmax2.jpg');
@@ -245,9 +251,49 @@ p {
     height: auto;
 }
 
+.main__catalogo--poster i {
+	color: #fff;
+	font-size: 60px;
+	transition: all 0.2s ease-in-out;
+}
+
+.main__catalogo--poster i:hover {
+	color: #e4bd2a;
+}
+
+.main__catalogo--info {
+	padding: 0 10px 10px 10px;
+}
+
 .main__catalogo--info h3 {
 	text-transform: uppercase;
 }
+
+.main__catalogo--info a {
+	color: #e4bd2a;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.main__catalogo--info i {
+	color: #ccc;
+    cursor: pointer;
+}
+
+.main__catalogo--info i:hover {
+	color: #e74c3c;
+}
+
+.main__catalogo--info-nota {
+	margin: 0;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	font-size: 22px;
+	color: #000;
+}
+
 .main__catalogo--poster-play {
 	align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
@@ -274,6 +320,7 @@ p {
 
 .main__catalogo--item h2 {
 	color: #e4bb23;
-	font-size: 15px;
+	font-size: 22px;;
 	text-transform: uppercase;
 }
+
