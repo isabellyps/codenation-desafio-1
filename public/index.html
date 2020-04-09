@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>IMDB - CodeNation Filmes</title>
-    <meta name="description" content="" />
+    <meta name="description" content="IMDB - CodeNation Filmes. Os melhores filmes disponíveis para você! Dê um play!" />
     <link rel="shortcut icon" type="image/png" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -13,42 +13,51 @@
   </head>
 
   <body>
-    <header>
-      <nav>
-        <div>
-          <img src="./img/logo-imdb.jpg" alt="Logo IMDb" />
-        </div>
-
-        <ul>
-          <li><a href="">LANÇAMENTOS</a></li>
-          <li><a href="">CRÍTICA</a></li>
-          <li><a href="">EM CARTAZ</a></li>
-        </ul>
-        <div>
-          <img src="./img/walter-white.jpg" alt="Walter White" />
-          <p>Walter White</p>
-        </div>
+    <header class="cabecalho">
+      <nav class="cabecalho__nav">
+		  <div class="container">
+			  <div class="cabecalho__logo">
+				 <a href="">
+					<img src="./img/logo-imdb.jpg" alt="Logo IMDb" />
+				 </a>
+			  </div>
+	  			<ul class="cabecalho__menu">
+					<li class="cabecalho__menu--item"><a href="">LANÇAMENTOS</a></li>
+					<li class="cabecalho__menu--item"><a href="">CRÍTICA</a></li>
+					<li class="cabecalho__menu--item"><a href="">EM CARTAZ</a></li>
+			  </ul>
+			  <div class="cabecalho__usuario">
+				  <div class="cabecalho__usuario--img">
+					<img src="./img/walter-white.jpg" alt="Walter White" />
+				  </div>
+				<div class="cabecalho__usuario--nome">
+					Walter White
+				</div>
+			  </div>
+		  </div>
       </nav>
-      <div>
-        <h1>MAD MAX: ESTRADA DA FÚRIA</h1>
-        <div>
-          <a href="">AVENTURA</a>
-          <a href="">SCI-FI</a>
-          <a href="">TERROR</a>
-        </div>
-        <div>
-          <a href="">Assistir Trailer <i>Play</i></a>
-        </div>
-        <div>
-          <p>Nos Cinemas</p>
-          <p>15 de Outubro de 2015 (Brasil)</p>
-        </div>
+      <div class="cabecalho__lancamento">
+		  <div class="container">
+			  <h1>MAD MAX: ESTRADA DA FÚRIA</h1>
+			  <div class="cabecalho__lancamento-genero">
+				<a class="cabecalho__lancamento-genero--item" href="">AVENTURA</a>
+				<a class="cabecalho__lancamento-genero--item" href="">SCI-FI</a>
+				<a class="cabecalho__lancamento-genero--item" href="">TERROR</a>
+			  </div>
+			  <div>
+				<a class="cabecalho__lancamento-genero--trailer" href="">Assistir Trailer<i class="fa fa-play-circle-o"></i></a>
+			  </div>
+			  <div class="cabecalho__lancamento-infos">
+				<p class="cabecalho__lancamento-infos--item1">Nos Cinemas</p>
+				<p class="cabecalho__lancamento-infos--item2">15 de Outubro de 2015 (Brasil)</p>
+			  </div>
+		  </div>
       </div>
     </header>
 
     <main>
       <nav>
-        <div>
+        <div class="menu-main">
           <ul>
             <li><a href="">NOS CINEMAS</a></li>
             <li><a href="">EM BREVE</a></li>

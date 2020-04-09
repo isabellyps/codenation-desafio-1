@@ -4,3 +4,173 @@
 * {
 	box-sizing: border-box;
 }
+
+body {
+	font-size: 11px;
+	font-family: "Montserrat", sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+p {
+	color: #e4bd2a;
+	font-weight: bold;
+}
+
+.cabecalho {
+	color: #fff;
+	background-image: url('../img/capa-madmax2.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	padding: 20px;
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.cabecalho::after {
+	background: linear-gradient( 0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 212, 255, 0) 70% );
+	content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.cabecalho__nav {
+	display: flex;
+	z-index: 2
+}
+
+.cabecalho__nav .container {
+	position: relative;
+	align-items: center;
+	justify-content: space-between;	
+	display: flex;
+	width: 1060px;
+	margin: 0 auto
+}
+
+.cabecalho__logo {
+	display: inline-block;
+}
+
+.cabecalho__menu {
+	display: flex;
+	margin: 0;
+    padding: 0;	
+}
+
+.cabecalho__menu--item {
+	margin: 0 20px;
+	z-index: 2;
+	font-size: 15px;
+}
+
+.cabecalho__menu li :hover{
+	color: #e4bd2a;
+}
+
+.cabecalho__usuario {
+	display: flex;
+	align-items: center;
+}
+
+.cabecalho__usuario--nome {
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.cabecalho__usuario img {
+	width: 50px;
+	border-radius: 45px;
+	margin-right: 15px;
+}
+
+.cabecalho__lancamento {
+	width: 100%;
+	z-index: 2;
+}
+
+.cabecalho__lancamento .container {
+	width: 1060px;
+	margin: 0 auto;
+}
+
+.cabecalho__lancamento h1 {
+	font-size: 70px;
+	margin: 0;
+}
+
+.cabecalho__lancamento-genero {
+	display: flex;
+	display: flex;
+    margin: 25px 0px 35px 0px;
+}
+
+.cabecalho__lancamento-genero--item {
+	margin: 0px 5px;
+	font-weight: normal;
+	font-size: 14px;
+	transition: all 0.2s ease-in-out
+}
+
+.cabecalho__lancamento-genero--item:hover {
+	color: #e4bd2a;
+}
+
+.cabecalho__lancamento-genero--trailer {
+	display: inline-block;
+	padding: 15px 50px;
+	color: black;
+	font-size: 15px;
+	background-color: #e4bd2a;
+	border-radius: 35px;
+	font-weight: normal;
+	position: relative;
+    transition: all 0.2s ease-in-out;
+}
+
+.cabecalho__lancamento-genero--trailer:hover {
+	background-color: #bc9a1d;
+}
+
+.cabecalho__lancamento-genero--trailer i {
+	position: absolute;
+    right: 15px;
+	top: 12px;
+	font-size: 25px;	
+}
+
+.cabecalho__lancamento-infos {
+	padding: 15px;
+}
+
+.cabecalho__lancamento-infos--item1 {
+	color: #fff;
+	font-size: 15px;
+    font-weight: normal;
+}
+
+.cabecalho__lancamento-infos--item2 {
+	font-size: 15px;
+    font-weight: normal;
+}
+
+.menu-main{
+	position: relative;
+}
